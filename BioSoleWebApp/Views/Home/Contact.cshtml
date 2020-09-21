@@ -1,0 +1,68 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+<link rel="stylesheet" href="~/Content/main.css" />
+<noscript><link rel="stylesheet" href="~/Content/noscript.css" /></noscript>
+
+<footer id="footer" class="p-5">
+    <section>
+        <form method="post" action="#">
+            <div class="fields">
+                <div class="field">
+                    <label for="name" class="text-white">Name</label>
+                    <input type="text" name="name" id="name"  class="text-white"/>
+                </div>
+                <div class="field">
+                    <label for="name" class="text-white">Contact</label>
+                    <input type="text" class="text-white" name="Contact" id="Contact" />
+                </div>
+                <div class="field">
+                    <label for="email" class="text-white">Email</label>
+                    <input type="text"  class="text-white" name="email" id="email" />
+                </div>
+                <div class="field">
+                    <label for="message" class="text-white">Message</label>
+                    <textarea name="message" id="message" class="text-white" rows="3"></textarea>
+                </div>
+            </div>
+            <ul class="actions text-white">
+                <li><input type="submit"  class="text-white" value="Send Message" /></li>
+            </ul>
+        </form>
+    </section>
+    <section class="split contact">
+        <section>
+            <img src="~/Images/BioSol_IndiaBanner.JPG" class="img-thumbnail" />
+        </section>
+        <section class="alt">
+            <h3>Office Address</h3>
+            <p>
+                49-27-13/5, Kamal building, Seethampeta, Vishakhapatnam,
+                Andhra Pradesh, 530016
+            </p>
+        </section>
+
+        <section>
+            <h3>Email : </h3>
+            <p><a href="mailto:biosolin@gmail.com">biosolin@gmail.com</a></p>
+        </section>
+        @*<section>
+            <h3>Social</h3>
+            <ul class="icons alt">
+                <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a href="https://www.facebook.com/Vetopia-Pet-Clinic-Surgery-Center-378687465922859/" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+                <li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+            </ul>
+        </section>*@
+    </section>
+
+</footer>
+
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script src="~/Scripts/jquery.scrollex.min.js"></script>
+<script src="~/Scripts/jquery.scrolly.min.js"></script>
+<script src="~/Scripts/browser.min.js"></script>
+<script src="~/Scripts/breakpoints.min.js"></script>
+<script src="~/Scripts/util.js"></script>
+<script src="~/Scripts/main.js"></script>
